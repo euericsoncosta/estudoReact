@@ -1,8 +1,8 @@
-import React from 'react';
-import { Title } from './styled';
-import { Conteiner } from '../../styles/GlobalStyles';
+import React from "react";
+import { Title } from "./styled";
+import { Conteiner } from "../../styles/GlobalStyles";
 
-function app() {
+const app = () => {
   return (
     <Conteiner>
       <Title>
@@ -12,6 +12,6 @@ function app() {
       <button>Enviar</button>
     </Conteiner>
   );
-}
+};
 
 export default app;
